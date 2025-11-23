@@ -3,10 +3,10 @@ agent any
 environment {
 DOCKERHUB = credentials('dockerhub-creds')
 SSH_CRED = 'ec2-ssh-key'
-APP_IMAGE = "YOUR_DOCKERHUB_USERNAME/capstone-node-app"
+APP_IMAGE = "kowsie/capstone-node-app"
 APP_TAG = "${env.BUILD_NUMBER}"
 DEPLOY_USER = "ubuntu"
-DEPLOY_HOST = "EC2_PUBLIC_IP_OR_HOSTNAME"
+DEPLOY_HOST = "43.205.120.124"
 DEPLOY_PATH = "/home/ubuntu/deploy"
 }
 stages {
