@@ -1,0 +1,6 @@
+node_modules/
+*.log
+*.swp
+*.tar.gz
+*.zip
+node_exporter-*/

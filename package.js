@@ -1,0 +1,13 @@
+{
+  "name": "capstone-node-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node ./test/test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
