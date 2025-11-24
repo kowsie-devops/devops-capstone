@@ -35,5 +35,9 @@ sh "ssh -o StrictHostKeyChecking=no ${DEPLOY_USER}@${DEPLOY_HOST} 'bash ${DEPLOY
 }
 }
 }
-post { always { archiveArtifacts artifacts: '**/logs/*.log', onlyIfSuccessful: false } }
+post {
+    always {
+        archiveArtifacts artifacts: '**/logs/*.log', allowEmptyArchive: true, onlyIfSuccessful: false
+    }
+}
 }
