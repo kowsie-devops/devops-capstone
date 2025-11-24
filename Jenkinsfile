@@ -7,7 +7,7 @@ APP_IMAGE = "kowsie/capstone-node-app"
 APP_TAG = "${env.BUILD_NUMBER}"
 DEPLOY_USER = "ubuntu"
 DEPLOY_HOST = "13.233.236.137"
-DEPLOY_PATH = "/home/ubuntu/deploy"
+DEPLOY_PATH = "/home/ubuntu/devops-capstone/deploy"
 }
 stages {
 stage('Checkout') { steps { checkout scm } }
