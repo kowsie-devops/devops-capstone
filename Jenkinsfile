@@ -6,7 +6,7 @@ SSH_CRED = 'ec2-ssh-key'
 APP_IMAGE = "kowsie/capstone-node-app"
 APP_TAG = "${env.BUILD_NUMBER}"
 DEPLOY_USER = "ubuntu"
-DEPLOY_HOST = "43.205.120.124"
+DEPLOY_HOST = "3.109.152.244"
 DEPLOY_PATH = "/home/ubuntu/deploy"
 }
 stages {
