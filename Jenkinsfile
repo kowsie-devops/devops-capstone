@@ -9,6 +9,9 @@ DEPLOY_USER = "ubuntu"
 DEPLOY_HOST = "65.2.39.220"
 DEPLOY_PATH = "/home/ubuntu/devops-capstone/deploy"
 }
+triggers {
+        githubPush()
+    }
 stages {
 stage('Checkout') { steps { checkout scm } }
 stage('Install & Test') {
