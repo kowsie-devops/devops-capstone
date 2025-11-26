@@ -6,7 +6,7 @@ SSH_CRED = 'ec2-ssh-key'
 APP_IMAGE = "kowsie/capstone-node-app"
 APP_TAG = "${env.BUILD_NUMBER}"
 DEPLOY_USER = "ubuntu"
-DEPLOY_HOST = "65.2.39.220"
+DEPLOY_HOST = "13.232.255.132"
 DEPLOY_PATH = "/home/ubuntu/devops-capstone/deploy"
 }
 triggers {
